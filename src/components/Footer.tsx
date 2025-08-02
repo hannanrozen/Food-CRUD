@@ -6,7 +6,6 @@ export default function Footer() {
     <footer className="bg-card/50 border-t border-border backdrop-blur-sm mt-20">
       <div className="container mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Brand Section */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-primary to-orange-500 rounded-full flex items-center justify-center">
@@ -23,7 +22,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-4 mt-6">
               <a
-                href="https://github.com"
+                href="https://github.com/hannanrozen"
                 className="text-muted-foreground hover:text-primary transition-colors"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -31,7 +30,7 @@ export default function Footer() {
                 <Github className="h-5 w-5" />
               </a>
               <a
-                href="mailto:contact@foodapp.com"
+                href="mailto:hannanrozen4567@gmail.com"
                 className="text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="h-5 w-5" />
@@ -39,7 +38,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
             <h3 className="font-semibold text-foreground mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
@@ -70,7 +68,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* Categories */}
           <div>
             <h3 className="font-semibold text-foreground mb-4">Categories</h3>
             <ul className="space-y-2 text-sm">
